@@ -1,6 +1,6 @@
 ﻿namespace Numthod
 {
-    partial class FormUI
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(239, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 27);
+            this.label1.Size = new System.Drawing.Size(184, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "sin x - e   - x = 0";
             // 
@@ -67,7 +67,7 @@
             this.lblCalculatePersamaan.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCalculatePersamaan.Location = new System.Drawing.Point(235, 27);
             this.lblCalculatePersamaan.Name = "lblCalculatePersamaan";
-            this.lblCalculatePersamaan.Size = new System.Drawing.Size(185, 15);
+            this.lblCalculatePersamaan.Size = new System.Drawing.Size(199, 16);
             this.lblCalculatePersamaan.TabIndex = 2;
             this.lblCalculatePersamaan.Text = "CALCULATOR PERSAMAAN";
             // 
@@ -77,7 +77,7 @@
             this.lblXl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblXl.Location = new System.Drawing.Point(232, 95);
             this.lblXl.Name = "lblXl";
-            this.lblXl.Size = new System.Drawing.Size(30, 15);
+            this.lblXl.Size = new System.Drawing.Size(32, 16);
             this.lblXl.TabIndex = 3;
             this.lblXl.Text = "Xl =";
             // 
@@ -87,7 +87,7 @@
             this.lblXu.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblXu.Location = new System.Drawing.Point(228, 128);
             this.lblXu.Name = "lblXu";
-            this.lblXu.Size = new System.Drawing.Size(34, 15);
+            this.lblXu.Size = new System.Drawing.Size(36, 16);
             this.lblXu.TabIndex = 5;
             this.lblXu.Text = "Xu =";
             // 
@@ -153,6 +153,7 @@
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

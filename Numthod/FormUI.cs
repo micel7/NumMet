@@ -77,5 +77,10 @@ namespace Numthod
             }
             catch (Exception ex) { MessageBox.Show("Sorry, " + ex.Message); }
         }
+        //kadang nt
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
