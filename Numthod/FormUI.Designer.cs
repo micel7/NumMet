@@ -1,6 +1,6 @@
 ﻿namespace Numthod
 {
-    partial class Form1
+    partial class FormUI
     {
         /// <summary>
         /// Required designer variable.
